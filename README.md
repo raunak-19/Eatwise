@@ -125,9 +125,9 @@ http://localhost:5000/public/index.html
 
 ---
 
-## 🚀 Deployment Guide
 
-### Option A — Deploy to Render (Recommended, Free Tier)
+
+
 
 1. **Push your code to GitHub** (make sure `.gitignore` is committed first):
 
