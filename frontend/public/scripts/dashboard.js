@@ -1,8 +1,8 @@
 // dashboard.js
-const API_BASE = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') &&
-  (window.location.port === '5500' || window.location.port === '3000' || window.location.port === '5173' || window.location.port === '8080')
+// API Base: localhost in dev, Render in production
+const API_BASE = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
   ? 'http://localhost:5000'
-  : '';
+  : 'https://eatwise-572k.onrender.com';
 
 const isLoggedIn = localStorage.getItem("eatwise_logged_in");
 
