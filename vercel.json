@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/styles/(.*)", "destination": "/styles/$1" },
+    { "source": "/scripts/(.*)", "destination": "/scripts/$1" },
+    { "source": "/(.*)", "destination": "/public/$1" }
+  ]
+}
