@@ -22,7 +22,7 @@ app.use(cors());
 app.use(express.json());
 
 // Serve static frontend files
-app.use(express.static(path.join(__dirname, '../frontend')));
+app.use(express.static(path.join(__dirname, '../frontend/public')));
 
 /* -------------------------
    FILE UPLOAD CONFIG
